@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+   }
+   *, *:before, *:after {
+    box-sizing: inherit;
+   }
+
+/*  {
+
+} */
+
+.body-around-gen {
+    background-color: black;
+    padding: 60px;
+    width: 1253px;
+    height: 678px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body-of-gen {
+    background: #ECFDF5;
+    width: 550px;
+    height: 550px;
+    
+    padding: 120px 60px 120px 60px;
+}
+
+p {
+    color: #6B7280;
+
+}
+
+button {
+    background: #10B981;
+    color: #ECFDF5;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 45px;
+    font-weight: bold;
+
+}
+
+.two-inputs {
+    border-top: 1px solid #6B7280;
+    padding-top: 35px;
+}
+
+.input {
+    display:inline-block;
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #55F991;
+
+    /* margin-right: 20px;
+    color: #5DEF92;
+    font-display: inherit;
+    align-items: center;
+    padding: 13px 12px 9px 39px; */
+
+}
+
+#input2-el {
+    border: 4px;
+}
